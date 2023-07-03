@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+body {
+    background-color: #B0C4DE; /* cinza claro */
+}
+
+div#interface {
+    position: relative;/* Transforma a div em um container */
+    background-color: #fff; /* branco */
+    width: 900px;
+    margin: -23px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5); /* sombra */
+    padding: 10px; /* espaçamento interno da div */
+}
+
+header#cabecalho h3 {
+    color: #71b086;
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    top: 50px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+}
+
+header#cabecalho h1 {
+    color: #606060;
+    font-size: 28pt;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    color: #4d4949;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* paragrafos */
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* links */
+a {
+    color: #606060;
+    text-decoration: none; /* remover o sublinhado do link */
+}
+
+/* hover é pra quando o mouse passar sobre */
+a:hover {
+    text-decoration: underline;
+
+}
+/* . para identificar a class foto.legenda da tag figure */
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white; /* solid hidden dotted dashed double groove ridge inset outset */
+    box-shadow: 2px 2px 8px black; /* horizontal vertical difusão cor da sombra */
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+/* usa-se # para acessar um id no html */
+nav#menu {
+    display: block; /* transformar tudo o que é menu em bloco */
+}
+
+nav#menu ul {
+    list-style: none; /* remover marcadores da lista */
+    text-transform: uppercase; /* converter para maiúsculas */
+    position: absolute; /* para que o menu possa ser colocado no topo, é preciso virar absoluto */
+    top: -3px; /* posicionado ao topo. valor negativo para empurrar além da borda */
+    right: 5px; /* posicionado à direita */
+}
+
+nav#menu li {
+    display: inline-block; /* colocar os itens lado a lado */
+    background-color: #ddd; /* cor de fundo - cinza */
+    padding: 7px; /* aumentar o espaçamento interno da caixa cinza */
+    margin: 2px; /* aumentar o espaçamento externo da caixa cinza */
+    transition: background-color 1.35s; /* tempo da transição do background-color */
+}
+
+/* hover para efeito do mouse ao passar sobre o li */
+nav#menu li:hover {
+    background-color: #606060; /* cinza escuro */
+}
+
+nav#menu h1 {
+    display: none; /* ocultar a tag h1 que está em nav id menu */
+}
+
+nav#menu a {
+    color: #000; /* preto */
+    text-decoration: none; /* remove o sublinhado do link */
+}
+/* ao passar o mouse sobre o link (tag a) */
+nav#menu a:hover {
+    color: #fff; /* branco */
+    text-decoration: underline; /* sublinhado */
+}
+
+img#icone {
+    position: absolute;
+    left: 300px;
+    top: 94px;
+    width: 90px;
+    height: 60px;
+}
+
+section#corpo {
+    display: block;
+    width: auto;
+}
+
+article#noticia-principal h2 {
+    font-size: 13pt;
+    color: #606060;
+    background-color: #ddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+hgroup#cabecalho-noticia-principal h1 {
+    font-size: 20pt;
+    color: #606060;
+    margin: 0px:
+}
+
+hgroup#cabecalho-noticia-principal h4 {
+    font-size: 15pt;
+    color: #4d4a4a;
+    background-color: #fff;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+hgroup#cabecalho-noticia-principal h3 {
+    font-size: 12pt;
+    color: #606060;
+}
+
+/* class direita */
+/* quando é class, é representado no css por . */
+.direita {
+    text-align: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
